@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { GridBackground } from "@/components/grid-background"
 import { ScrollProgress } from "@/components/scroll-progress"
 import { ScrollToTop } from "@/components/scroll-to-top"
+import { Analytics } from "@vercel/analytics/react"
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
 
@@ -28,6 +29,7 @@ export default function RootLayout({
           <ScrollProgress />
           {children}
           <ScrollToTop />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
