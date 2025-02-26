@@ -47,8 +47,8 @@ export function ContactSection() {
           </div>
           <div>
             <h4 className="text-lg font-medium text-white mb-2">Email</h4>
-            <a href="mailto:contact@example.com" className="text-gray-300 hover:text-white">
-              contact@example.com
+            <a href="mailto:gabrielstanziola4@gmail .com" className="text-gray-300 hover:text-white">
+              gabrielstanziola4@gmail.com
             </a>
           </div>
         </motion.div>
