@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Custom color scheme inspired by data visualization and Panama's vibrant culture */
+    --background: 220 33% 98%;
+    --foreground: 220 10% 3.9%;
+
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+
+    --popover: 220 33% 98%;
+    --popover-foreground: 220 10% 3.9%;
+
+    --card: 220 33% 98%;
+    --card-foreground: 220 10% 3.9%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+
+    /* Primary color - A vibrant blue representing technology and ocean */
+    --primary: 224 76% 48%;
+    --primary-foreground: 220 10% 98%;
+
+    /* Secondary color - A warm accent inspired by Panama sunset */
+    --secondary: 12 76% 61%;
+    --secondary-foreground: 220 10% 98%;
+
+    /* Accent color - A tropical green */
+    --accent: 142 71% 45%;
+    --accent-foreground: 220 10% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 224 76% 48%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Custom cursor */
+.custom-cursor {
+  @apply hidden md:block fixed w-8 h-8 pointer-events-none z-50 rounded-full mix-blend-difference;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+}
+
+/* Data visualization patterns */
+.data-pattern {
+  background-image: radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.05) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/20 rounded-full hover:bg-primary/30 transition-colors;
+}
+
