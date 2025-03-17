@@ -2,6 +2,8 @@
 
 Hey there! Thanks for stopping by! This is my modern, responsive portfolio website—a little digital home where I showcase my work, skills, and passion for building awesome things. I built it from the ground up using Next.js and Tailwind CSS, and I’m super excited to share it with you!
 
+## Preview: gabrielstanziola.com
+
 ## What’s This All About? ✨
 
 This portfolio is my way of putting my best foot forward. It’s a sleek, interactive space designed to highlight my professional projects, experience, and the skills I’ve picked up along the way. Whether you’re on your phone, tablet, or desktop, it’s built to look great and load fast—because who has time for slow websites, right?
