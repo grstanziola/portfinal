@@ -2,7 +2,8 @@
 
 Hey there! Thanks for stopping by! This is my modern, responsive portfolio website—a little digital home where I showcase my work, skills, and passion for building awesome things. I built it from the ground up using Next.js and Tailwind CSS, and I’m super excited to share it with you!
 
-## Preview: gabrielstanziola.com
+## Preview: 
+www.gabrielstanziola.com
 
 ## What’s This All About? ✨
 
